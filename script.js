@@ -23,10 +23,10 @@ const SVC = {
       'Diagnóstico sin costo previo',
     ],
     gallery: [
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Limpieza+PC', alt: 'Limpieza interna PC' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=SSD+Upgrade', alt: 'Upgrade SSD' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Windows', alt: 'Instalación Windows' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=RAM', alt: 'Ampliación RAM' },
+      { src: 'assets/img/pc/limpieza.webp', alt: 'Limpieza interna PC' },
+      { src: 'assets/img/pc/sdd.webp', alt: 'Mejora a SSD' },
+      { src: 'assets/img/pc/windows.webp', alt: 'Instalación Windows' },
+      { src: 'assets/img/pc/ram.webp', alt: 'Ampliación RAM' },
     ],
     wa: 'Hola%20Nahuel!%20Necesito%20ayuda%20con%20mi%20PC%20o%20notebook',
   },
@@ -46,10 +46,10 @@ const SVC = {
       'Mantenimiento mensual',
     ],
     gallery: [
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Red+Oficina', alt: 'Red en oficina' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Starlink', alt: 'Instalación Starlink' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Cableado', alt: 'Cableado estructurado' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Access+Point', alt: 'Access Point' },
+      { src: 'assets/img/redes/oficina.webp', alt: 'Red en oficina' },
+      { src: 'assets/img/redes/starlink.webp', alt: 'Instalación Starlink' },
+      { src: 'assets/img/redes/cableado.webp', alt: 'Cableado estructurado' },
+      { src: 'assets/img/redes/inalambrico.webp', alt: 'Punto a punto' },
     ],
     wa: 'Hola%20Nahuel!%20Necesito%20ayuda%20con%20WiFi%20o%20red',
   },
@@ -69,10 +69,10 @@ const SVC = {
       'Garantía post-instalación',
     ],
     gallery: [
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Cámaras+Comercio', alt: 'Cámaras en comercio' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Exterior', alt: 'Cámara exterior' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Monitor+CCTV', alt: 'Monitor CCTV' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=App+Celular', alt: 'App en celular' },
+      { src: 'assets/img/camaras/comercio.webp', alt: 'Cámaras en comercio' },
+      { src: 'assets/img/camaras/exterior.webp', alt: 'Cámara exterior' },
+      { src: 'assets/img/camaras/monitor.webp', alt: 'Monitor CCTV' },
+      { src: 'assets/img/camaras/app.webp', alt: 'App en celular' },
     ],
     wa: 'Hola%20Nahuel!%20Quiero%20instalar%20cámaras%20de%20seguridad',
   },
@@ -92,10 +92,10 @@ const SVC = {
       'Asesoramiento en compra de dispositivos',
     ],
     gallery: [
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Smart+TV', alt: 'Configuración Smart TV' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Home+Theater', alt: 'Home Theater' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Chromecast', alt: 'Chromecast' },
-      { src: 'https://placehold.co/300x200/f0fdf4/10b981?text=Streaming', alt: 'Streaming setup' },
+      { src: 'assets/img/tv/smartv.webp', alt: 'Configuración Smart TV' },
+      { src: 'assets/img/tv/hometheater.webp', alt: 'Home Theater' },
+      { src: 'assets/img/tv/chromecast.webp', alt: 'Chromecast' },
+      { src: 'assets/img/tv/streaming.webp', alt: 'Configuración de streaming' },
     ],
     wa: 'Hola%20Nahuel!%20Necesito%20ayuda%20con%20mi%20Smart%20TV',
   },
@@ -116,10 +116,10 @@ const SVC = {
     ],
     isWeb: true,
     projects: [
-      { img: 'https://placehold.co/180x100/f0fdf4/10b981?text=Proyecto+1', name: 'Restaurante El Rincón', desc: 'Landing page con menú y reservas', url: 'https://ejemplo.com/1' },
-      { img: 'https://placehold.co/180x100/f0fdf4/10b981?text=Proyecto+2', name: 'Ferretería Don José',  desc: 'Catálogo online + WhatsApp',     url: 'https://ejemplo.com/2' },
-      { img: 'https://placehold.co/180x100/f0fdf4/10b981?text=Proyecto+3', name: 'Estudio Contable',     desc: 'Web institucional profesional',  url: 'https://ejemplo.com/3' },
-      { img: 'https://placehold.co/180x100/f0fdf4/10b981?text=Proyecto+4', name: 'Boutique Moda',        desc: 'Tienda con catálogo y pedidos',  url: 'https://ejemplo.com/4' },
+      { img: 'assets/img/landing/hotel.png', name: 'Hotel',  desc: 'Reservas digitales con atención personalizada',     url: 'https://nahuelaf.github.io/LandingHotel/' },
+      { img: 'assets/img/landing/estudiocontable.png', name: 'Estudio Contable',     desc: 'Web institucional profesional',  url: 'https://nahuelaf.github.io/LandingEstudioContable/' },
+      { img: 'assets/img/landing/barberia.png', name: 'Barberia',        desc: 'Agenda online con turnos rápidos',  url: 'https://nahuelaf.github.io/LandingBarberia/' },
+      { img: 'assets/img/landing/e.webp', name: 'Dedicatoria', desc: 'Landing page para dedicar a tu pareja', url: 'https://nahuelaf.github.io/Galaxia/' },
     ],
     wa: 'Hola%20Nahuel!%20Me%20interesa%20tener%20una%20página%20web',
   },
@@ -201,15 +201,15 @@ const PHRASES = [
   '¿El WiFi\nno llega bien?',
   '¿Querés cámaras\nen tu negocio?',
   '¿Tu Smart TV\nno conecta?',
-  '¿Tu negocio\nnecesita web?',
-  'Yo te\najudo hoy.',
+  '¿Tu negocio\nnecesita una web?',
+  'Yo te\nlo dejo funcionando hoy.',
 ];
 
 const BUBBLES = [
   '¡Eso tiene solución! 💻',
   '¡Lo extiendo por toda la casa! 📡',
   '¡Te lo instalo hoy! 📷',
-  '¡Config en 1 hora! 📺',
+  'Configuración en 1 hora! 📺',
   '¡Hago tu web! 🌐',
   '¡Escribime! 👋',
 ];
@@ -389,4 +389,27 @@ secs.forEach(s => {
   new IntersectionObserver(([e]) => {
     if (e.isIntersecting) navAs.forEach(a => { a.style.color = a.getAttribute('href') === `#${s.id}` ? 'var(--green-d)' : ''; });
   }, { threshold: 0.4 }).observe(s);
+});
+
+//zoom gallery//
+const zoomOverlay = document.createElement('div');
+zoomOverlay.className = 'img-zoom-overlay';
+zoomOverlay.innerHTML = '<img />';
+document.body.appendChild(zoomOverlay);
+
+const zoomImg = zoomOverlay.querySelector('img');
+
+// abrir
+document.addEventListener('click', e => {
+  if (e.target.matches('.modal-gallery img')) {
+    zoomImg.src = e.target.src;
+    zoomOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+});
+
+// cerrar
+zoomOverlay.addEventListener('click', () => {
+  zoomOverlay.classList.remove('active');
+  document.body.style.overflow = '';
 });
